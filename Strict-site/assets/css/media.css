@@ -1,0 +1,6 @@
+@media only screen and (max-width : 1200px) {
+    .services__item {
+        width: 50%;
+        display: inline-block;
+    }
+}

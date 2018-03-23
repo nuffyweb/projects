@@ -1,0 +1,473 @@
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.content-box-component {
+    box-sizing: content-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    line-height: 1.42;
+    background-color: #F6F9F9;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow:hidden;
+}
+
+.row {
+
+}
+
+.wrapper {
+    min-height: 100%;
+    padding: 1px 0;
+    position: relative;
+}
+
+.wrapper:after {
+    content: "";
+    display: block;
+    height: 90px;
+
+}
+
+.top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo__text {
+    float: right;
+    margin-left: 16px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(45, 57, 80);
+    font-weight: bold;
+    line-height: 0.667;
+}
+
+/*  header start  */
+.header {
+    background: #6c727d url(../img/header.png) no-repeat center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding-top: 219px;
+    padding-bottom: 90px;
+}
+
+.header__title {
+    display: inline-block;
+    width: 600px;
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-bottom: 2px solid rgb(21, 164, 250);
+    margin: 0;
+}
+
+.header__slogan {
+    padding-top: 35px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 65px;
+
+}
+
+.btn {
+    border-color: rgb(21, 164, 250);
+    border-radius: 2px;
+    background-color: rgba(21, 164, 250, 0);
+    width: 180px;
+    height: 58px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 2.611;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 170px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: .6s ease;
+    color: rgb(255, 255, 255);
+    line-height: 2.35;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(21, 164, 250);
+    border-radius: 2px;
+    background-color: rgb(21, 164, 250);
+}
+
+.arrow {
+    background: url(../img/arrow.png) no-repeat;
+    width: 20px;
+    height: 12px;
+    margin: 0 auto;
+}
+
+/*  header end  */
+
+.content {
+    background-color: rgb(246, 249, 249);
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 112px;
+}
+
+.content__title {
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(45, 57, 80);
+    line-height: 1.2;
+}
+
+.content__slogan {
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(153, 153, 153);
+    max-width: 100%;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*  services start  */
+
+.services {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #ffffff;
+}
+
+.services__box {
+}
+
+.services__item {
+    width: 33.3%;
+    float: left;
+    padding: 0 26px;
+    text-align: center;
+    list-style: none;
+}
+
+.services__img--one {
+    margin-bottom: 30px;
+}
+
+.services__title {
+    margin-bottom: 25px;
+    font-size: 22px;
+    color: rgb(45, 57, 80);
+}
+
+.services__text {
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+}
+
+/*  services end  */
+
+/*  portfolio start  */
+
+.portfolio {
+    margin: 0 auto;
+    background-color: rgb(246, 249, 249);
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 115px;
+}
+
+.portfolio__title {
+    font-size: 41px;
+    font-weight: 400;
+    color: rgb(45, 57, 80);
+}
+
+.portfolio__slogan {
+    font-size: 15px;
+    line-height: 1.533;
+    color: rgb(144, 144, 144);
+    margin-bottom: 30px;
+}
+
+.box-img {
+
+}
+
+.container-img {
+    max-width: 1170px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.portfolio__img {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    transition: opacity 1s;
+}
+
+.img1 {
+    background: url(../img/img1.png) no-repeat center;
+}
+
+.img2 {
+    background: url(../img/img2.png) no-repeat center;
+}
+
+.img3 {
+    background: url(../img/img3.png) no-repeat center;
+}
+
+.img4 {
+    background: url(../img/img4.png) no-repeat center;
+}
+
+.img5 {
+    background: url(../img/img5.png) no-repeat center;
+}
+
+.img6 {
+    background: url(../img/img6.png) no-repeat center;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6 {
+    width: 360px;
+    height: 260px;
+}
+
+.zoom {
+    display: inline-block;
+    background: url(../img/Zoom.png) no-repeat center;
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.link {
+    display: inline-block;
+    background: url(../img/Link.png) no-repeat center;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+}
+
+.portfolio__img--hover {
+    opacity: 0;
+    transition: opacity 1s;
+    background: rgba(21, 164, 250, 0.9);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 110px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.portfolio__img:hover .portfolio__img--hover {
+    transition: opacity 1s;
+    opacity: 1;
+
+}
+
+/*  portfolio end  */
+
+/*  submit start  */
+
+.submit {
+    background-color: #6c727d;
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 110px;
+}
+
+.submit__title {
+    font-size: 41px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+
+.submit__text {
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+    line-height: 1.533;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.main-form {
+    width: 555px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 555px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.form__name,
+.form__email,
+.form__comment {
+    width: 100%;
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+    line-height: 1.2;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 2px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    padding: 20px 0 20px 20px;
+
+}
+
+.form__comment {
+    height: 160px;
+    outline: none;
+    resize: none;
+    overflow: auto;
+}
+
+.check-form {
+    float: left;
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+    line-height: 1.2;
+}
+
+.check {
+    border: 1px solid rgb(154, 161, 171);
+    border-radius: 2px;
+    background-color: rgb(153, 153, 153);
+}
+
+.check-form:hover {
+    color: rgb(255, 255, 255);
+}
+
+.form__name:hover,
+.form__email:hover,
+.form__comment:hover,
+.form__name:focus,
+.form__email:focus,
+.form__comment:focus {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.btn-form {
+    float: right;
+}
+
+/*  submit end  */
+
+/*  footer start  */
+.footer {
+    height: 90px;
+}
+
+.footer__copy {
+    float: left;
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+    line-height: 1.2;
+    margin-top: 38px;
+    margin-bottom: 38px;
+
+}
+
+.footer__socials {
+    float: right;
+
+}
+
+.socials__link {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.socials__link--tw {
+    background-image: url(../img/social/tw.png);
+}
+.socials__link--tw:hover {
+    background-image: url(../img/social/hover/tw-h.png);
+}
+.socials__link--fb {
+    background-image: url(../img/social/fb.png);
+}
+.socials__link--fb:hover {
+    background-image: url(../img/social/hover/f-h.png);
+}
+.socials__link--g {
+    background-image: url(../img/social/g.png);
+}
+.socials__link--g:hover {
+    background-image: url(../img/social/hover/g-h.png);
+}
+.socials__link--in {
+    background-image: url(../img/social/in.png);
+    margin-right: 0;
+}
+.socials__link--in:hover {
+    background-image: url(../img/social/hover/in-h.png);
+}
+/*  footer end  */
