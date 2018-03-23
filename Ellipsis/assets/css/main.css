@@ -1,0 +1,240 @@
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* HEADER */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.header {
+    max-width: 1920px;
+    background-image: url(../img/header_bck.png);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.header__logo {
+    margin-top: 286px;
+    margin-bottom: 94px;
+}
+
+.header__title {
+    margin-bottom: 50px;
+    font-size: 54px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.header__desc {
+
+    line-height: 1.933;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 0 auto;
+    margin-bottom: 240px;
+}
+
+.header__scroll {
+    padding-bottom: 115px;
+}
+
+/* HEADER */
+
+/* content*/
+.content {
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    border: 2px solid;
+}
+
+.content__title {
+    font-size: 34px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 100px;
+}
+
+.content__desc {
+    line-height: 1.618;
+    font-weight: 300;
+}
+
+/* content */
+
+/* ABOUT US */
+.about {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.about__lead {
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.about__lead {
+    color: rgb(60, 60, 60);
+    border-color: black;
+}
+
+/* ABOUT US */
+
+/* services */
+.services {
+    max-width: 1920px;
+    background-image: url(../img/services.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    margin-bottom: 120px;
+    padding-top: 128px;
+    padding-bottom: 109px;
+
+}
+
+.services__lead {
+    border-color: #fff;
+    color: rgb(255, 255, 255);
+    padding-top: 75px;
+    padding-bottom: 50px;
+
+}
+
+/* services */
+/* skills */
+.skills {
+    margin-top: 100px;
+    margin-bottom: 114px;
+}
+
+.skills__lead {
+    padding-top: 125px;
+    padding-bottom: 90px;
+}
+
+.content__list {
+    padding-left: 0;
+}
+
+.item-img--1:before {
+    content: '';
+    display: block;
+    background: url(../img/design.png) no-repeat;
+    width: 80px;
+    height: 83px;
+    margin: 0 auto;
+}
+
+.item-img--2:before {
+    content: '';
+    display: block;
+    background: url(../img/Development.png) no-repeat;
+    width: 79px;
+    height: 76px;
+    margin: 0 auto;
+}
+
+.item-img--3:before {
+    content: '';
+    display: block;
+    background: url(../img/Management.png) no-repeat;
+    width: 79px;
+    height: 91px;
+    margin: 0 auto;
+}
+
+.list-content__item {
+    list-style-type: none;
+    margin-bottom: 100px;
+}
+
+.list-content__title {
+    font-size: 20px;
+    color: rgb(60, 60, 60);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 3px;
+}
+
+.list-content__desc {
+    color: rgb(60, 60, 60);
+    line-height: 1.849;
+
+}
+
+/* skills */
+.portfolio {
+    padding-bottom: 140px;
+    max-width: 1920px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0;
+}
+.portfolio__list {
+    padding-left: 0;
+}
+.portfolio__item {
+    display: inline-block;
+}
+
+.contact {
+    margin-bottom: 60px;
+}
+
+.contact__lead {
+    color: rgb(60, 60, 60);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content__btn {
+    border-width: 2px;
+    border-color: rgb(60, 60, 60);
+    border-style: solid;
+    background-color: rgb(60, 60, 60);
+    width: 391px;
+    height: 54px;
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    cursor: pointer;
+}
+
+.footer {
+    margin: 0 auto;
+    margin-bottom: 75px;
+
+}
+
+.footer__logo {
+    margin-right: 36px;
+    margin-bottom: -10px;
+    display: inline-block;
+}
+
+.copy {
+    display: inline-block;
+}
+
+.footer__text {
+    display: inline-block;
+}
