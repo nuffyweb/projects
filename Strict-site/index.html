@@ -12,8 +12,12 @@
     <!-- STYLES -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link href="assets/css/normalize.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/animate.css">
     <link href="assets/css/main.css" rel="stylesheet" type="text/css">
     <link href="assets/css/media.css" rel="stylesheet" type="text/css">
+
+
+
 </head>
 
 <body>
@@ -26,8 +30,12 @@
     </div>
 </section>
 <!-- header -->
-<header class="header">
-    <div class="container">
+<header class="header container">
+    <div class="video-container" >
+        <video src="assets/video/video.mp4" autoplay="true" loop="true"></video>
+        <div class="header__overlay" ></div>
+    </div>
+    <div class="header__content" >
         <h1 class="header__title">STRICT</h1>
         <p class="header__slogan">STRICT is a responsive theme with a a clean and minimal look.</p>
         <button class="btn">Call to action</button>
@@ -47,10 +55,10 @@
     </div>
 </section>
 <!-- services-->
-<section class="services ">
+<section class="services">
     <ul class="services__box container clearfix">
 
-        <li class="services__item ">
+        <li class="services__item">
             <img src="assets/img/Icon1.png" alt="" class="services__img--one">
             <h3 class="services__title">Optimized for all devices</h3>
             <p class="services__text">STRICT has been designed to be fully
@@ -147,5 +155,8 @@
         </ul>
     </div>
 </footer>
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/jquery.viewportchecker.min.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
