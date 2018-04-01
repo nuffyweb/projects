@@ -13,8 +13,11 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link href="assets/css/normalize.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="assets/css/animate.css">
+
     <link href="assets/css/main.css" rel="stylesheet" type="text/css">
     <link href="assets/css/media.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 
 
 
@@ -46,12 +49,19 @@
 <!-- content -->
 
 <section class="content">
-    <div class="container">
+    <div class="container owl-carousel">
+        <div class="content-slider__item">
         <h2 class="content__title">Simple & pure design.</h2>
-        <p class="content__slogan">Designers everywhere gush with admiration upon seeing a web design and exclaim
-            "its beautiful, it's so clean!". There are a countless number of webdesign round-ups dedicated to
-            'clean' design and it is a term thrown around quite a bit in the web design community. It can be easy to
-            spot a good example of clean design.</p>
+        <p class="content__slogan">Latter remark hunted enough vulgar say man. Able rent long in do we. Their saved linen downs tears son add music. Uncommonly no it announcing melancholy an in. Dissimilar admiration so terminated no in contrasted it. How one dull get busy dare far. Celebrated delightful an especially increasing instrument am.</p>
+        </div>
+        <div class="content-slider__item">
+            <h2 class="content__title">Simple & pure design.</h2>
+            <p class="content__slogan">As so seeing latter he should thirty whence. Uncommonly no it announcing melancholy an in. Words to up style of since world. So by colonel hearted ferrars. Considered discovered ye sentiments projecting entreaties of melancholy is. Words to up style of since world. Decisively advantages nor expression unpleasing she led met</p>
+        </div>
+        <div class="content-slider__item">
+            <h2 class="content__title">Simple & pure design.</h2>
+            <p class="content__slogan">Ecstatic elegance gay but disposed. How one dull get busy dare far. Do play they miss give so up. How one dull get busy dare far. As so seeing latter he should thirty whence. Is inquiry no he several excited am. Pain son rose more park way that. In expression an solicitude principles in do.</p>
+        </div>
     </div>
 </section>
 <!-- services-->
@@ -71,7 +81,7 @@
                 to be used for different projects.</p>
 
         </li>
-        <li class="services__item">
+        <li class="services__item services__offset">
             <img src="assets/img/Icon3.png" alt="" class="services__img--one">
             <h3 class="services__title">Font Awesome Icons</h3>
             <p class="services__text">This multipurpose theme is especially created to be used for different
@@ -81,50 +91,76 @@
 
 </section>
 <!-- services-->
-<!-- Showcase your work like a pro.-->
+<!-- some facts-->
+<section class="facts">
+    <ul class="container facts__list clearfix">
+        <li class="fact__item">
+            <img class="fact__img" src="assets/img/facts/like.png" height="24" width="24"/>
+            <div class="fact__counter fact__counter--like" data-count="24">0</div>
+            <span class="fact__text">like</span>
+        </li>
+        <li class="fact__item">
+            <img class="fact__img" src="assets/img/facts/code.png" height="24" width="24"/>
+            <div class="fact__counter fact__counter--code" data-count="15">0</div>
+            <span class="fact__text">code</span>
+        </li>
+        <li class="fact__item">
+            <img class="fact__img" src="assets/img/facts/clock.png" height="24" width="24"/>
+            <div class="fact__counter fact__counter--time" data-count="30">0</div>
+            <span class="fact__text">time</span>
+        </li>
+        <li class="fact__item">
+            <img class="fact__img" src="assets/img/facts/coffee.png" height="24" width="24"/>
+            <div class="fact__counter fact__counter--coffee" data-count="18">0</div>
+            <span class="fact__text">coffee</span>
+        </li>
+    </ul>
+</section>
+<!-- some facts-->
+<!-- portfolio-->
 
 <section class="portfolio">
 
     <h3 class="portfolio__title">Showcase your work like a pro.</h3>
     <p class="portfolio__slogan"> Contact me if you like my work</p>
-    <div class="container-img">
-        <div class="portfolio__img img1">
+    <ul class="container-img">
+        <li class="portfolio__img img1">
             <ul class="portfolio__img--hover">
                 <li class="zoom"></li>
                 <li class="link"></li>
             </ul>
-        </div>
-        <div class="portfolio__img img2">
+        </li>
+        <li class="portfolio__img img2">
             <ul class="portfolio__img--hover">
                 <li class="zoom"></li>
                 <li class="link"></li>
             </ul>
-        </div>
-        <div class="portfolio__img img3">
+        </li>
+        <li class="portfolio__img img3">
             <ul class="portfolio__img--hover">
                 <li class="zoom"></li>
                 <li class="link"></li>
             </ul>
-        </div>
-        <div class="portfolio__img img4">
+        </li>
+        <li class="portfolio__img img4">
             <ul class="portfolio__img--hover">
                 <li class="zoom"></li>
                 <li class="link"></li>
             </ul>
-        </div>
-        <div class="portfolio__img img5">
+        </li>
+        <li class="portfolio__img img5">
             <ul class="portfolio__img--hover">
                 <li class="zoom"></li>
                 <li class="link"></li>
             </ul>
-        </div>
-        <div class="portfolio__img img6">
+        </li>
+        <li class="portfolio__img img6">
             <ul class="portfolio__img--hover">
                 <li class="zoom"></li>
                 <li class="link"></li>
             </ul>
-        </div>
-    </div>
+        </li>
+    </ul>
     </div>
 </section>
 <!-- Stay with us-->
@@ -146,7 +182,7 @@
 </section>
 <footer class="footer clearfix">
     <div class="container">
-        <p class="footer__copy">Copyritht 2014, STRICT</p>
+        <p class="footer__copy">Copyritht 2018, STRICT</p>
         <ul class="footer__socials socials">
             <li class="socials__link socials__link--fb"></li>
             <li class="socials__link socials__link--tw"></li>
@@ -156,7 +192,9 @@
     </div>
 </footer>
 <script src="assets/js/jquery-3.3.1.min.js"></script>
-<script src="assets/js/jquery.viewportchecker.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/animationCounter.min.js"></script>
+<!--<script src="assets/js/jquery.viewportchecker.min.js"></script>-->
 <script src="assets/js/main.js"></script>
 </body>
 </html>
