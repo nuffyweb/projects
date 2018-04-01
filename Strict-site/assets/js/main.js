@@ -1,4 +1,9 @@
 $(document).ready(function() {
+    $('.anim-block').addClass('hidden').viewportChecker({
+        classToAdd: 'visible animated fadeIn',
+        offset: 200,
+        callbackFunction: function(elem, action){},
+    });
 
     $(".owl-carousel").owlCarousel({
         items:1,
