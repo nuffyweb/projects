@@ -1,3 +1,10 @@
+
+$(window).on('load', function () {
+    $('.preloader').delay(2500).fadeOut('slow');
+});
+
+
+
 $(document).ready(function() {
     $('.anim-block').addClass('hidden').viewportChecker({
         classToAdd: 'visible animated fadeIn',
@@ -23,6 +30,7 @@ $(document).ready(function() {
     $('.fact__counter--code').animationCounter({
         start: 0,
         end: 88,
+        offset: 500,
         delay: 90
     });
     $('.fact__counter--time').animationCounter({
