@@ -261,6 +261,8 @@ body {
 
 .services__box {
     box-sizing: border-box;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .services__item {

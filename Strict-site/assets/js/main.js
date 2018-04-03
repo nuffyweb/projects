@@ -22,8 +22,8 @@ $(document).ready(function() {
     });
     $('.fact__counter--code').animationCounter({
         start: 0,
-        end: 42,
-        delay: 180
+        end: 88,
+        delay: 90
     });
     $('.fact__counter--time').animationCounter({
         start: 0,
@@ -32,7 +32,7 @@ $(document).ready(function() {
     });
     $('.fact__counter--coffee').animationCounter({
         start: 0,
-        end: 46,
+        end: 76,
         delay: 90
     });
 
